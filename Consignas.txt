@@ -1,0 +1,16 @@
+TAREA PRACTICA
+
+Fecha de entrega: 17-09
+
+1. Realizar una web manteniendo la siguiente estructura:
+    a) Tener un header con menú. Opciones del menú:
+        - Productos cuando se elige esta opción debe mostrar una lista de productos (usar tablas) (nombre, marca y precio).
+        - Contacto, tiene que llevar a un formulario (Nombre y Apellido, asunto y mensaje). Validar que los campos no estén vacíos.
+        Los datos se deberán mostrar por consola.
+    b) Un cuerpo con tarjetas que tengan promociones, cada tarjeta debe tener un botón (ver más) al hacer clic,
+        mostrar un modal con los términos y condiciones (usar JS puro).
+    c) Poner un footer con el típico copyright y los iconos de RRSS (fontawsome)
+2. Utilizar Bootstrap y estilos propios
+3. La presentación se hará mediante Git al repositorio
+4. Tanto los archivos .css como los de .js deben ir en sus carpetas correspondiente.
+    
