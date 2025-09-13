@@ -1,3 +1,10 @@
 #navegacion {
     background-color: #FFE2D0;
 }
+
+.p-hero {
+    background-image: url("../img/background.jpg");
+    background-size: cover; 
+    background-position: center;
+    height: 80vh;
+}
