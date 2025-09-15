@@ -2,12 +2,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <title>Coffe Store</title>
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-sm" id="navegacion">
+        <div class="container-fluid">
+            <img src="img/logo.jpg">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navegation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#navegacion">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#seccion-productos">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#seccion-contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero d-flex align-items-center justify-content-center text-white p-hero">
+        <div class="container text-center">
+
+            <h1 class="display-1 fw-bold text-black">Coffe Store</h1>
+            
+        </div>
+    </div>
+
+    <div class="container mt-5" id="seccion-productos">
+        <div class="row">
+            
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 t-item">
+                    <img src="img/img_productos/espresso.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Espresso</h5>
+                        <p class="card-text">Café concentrado, de sabor intenso, a base de nuestro mejor café molido.</p>
+                        <a href="#" class="btn btn-primary bg-secondary text-white fw-bold">Consigue el tuyo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 t-item">
+                    <img src="img/img_productos/cafe-leche.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cafe con leche</h5>
+                        <p class="card-text">Mitad cafe, mitad leche. Sencillo y amado por todos.</p>
+                        <a href="#" class="btn btn-primary bg-secondary text-white fw-bold">Consigue el tuyo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 t-item">
+                    <img src="img/img_productos/latte-macchiato.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Latte Macchiato</h5>
+                        <p class="card-text">Leche caliente y espumada con una porción de espresso, servido en capas.</p>
+                        <a href="#" class="btn btn-primary bg-secondary text-white fw-bold">Consigue el tuyo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 t-item">
+                    <img src="img/img_productos/mocca.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mocca</h5>
+                        <p class="card-text">El tradicional Latte acompañado con chocolate.</p>
+                        <a href="#" class="btn btn-primary bg-secondary text-white fw-bold">Consigue el tuyo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 t-item">
+                    <img src="img/img_productos/cafe-irlandes.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Café irlandés</h5>
+                        <p class="card-text">Acompañado con whisky de calidad, azúcar y crema batida.</p>
+                        <a href="#" class="btn btn-primary bg-secondary text-white fw-bold">Consigue el tuyo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100 t-item">
+                    <img src="img/img_productos/frappe.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Frappé</h5>
+                        <p class="card-text">Instantáneo + azúcar + leche. Iresistible.</p>
+                        <a href="#" class="btn btn-primary bg-secondary text-white fw-bold">Consigue el tuyo</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container mt-5" id="seccion-contacto">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h3 class="text-center mb-4">Contáctanos</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-black py-3 barra-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="#" target="_blank" class="text-white">
+                                <img src="img/img_rrss/img_facebook.png">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/tunombredeusuario" target="_blank" class="text-white">
+                                <img src="img/img_rrss/img_linkedin.png">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://instagram.com/tunombredeusuario" target="_blank" class="text-white">
+                                <img src="img/img_rrss/img_twitter.png">
+                            </a>
+                        </li>
+                    </ul>
+                    <p>&copy; Hecho por Facundo Perez</p>         
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>

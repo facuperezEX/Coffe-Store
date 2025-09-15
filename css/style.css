@@ -1,0 +1,23 @@
+#navegacion {
+    background-color: #FFE2D0;
+}
+
+.p-hero {
+    background-image: url("../img/background.jpg");
+    background-size: cover; 
+    background-position: center;
+    height: 80vh;
+}
+
+.t-item {
+    background-color: #85514C;
+    transition: 0.5s ease-in-out;
+}
+
+.t-item:hover {
+    background-color: #B37F7A;
+}
+
+.barra-footer {
+    background-color: #FFE2D0;
+}
