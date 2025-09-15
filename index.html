@@ -18,13 +18,13 @@
             <div class="collapse navbar-collapse" id="navMenu">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Inicio</a>
+                        <a class="nav-link active" href="#navegacion">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Productos</a>
+                        <a class="nav-link active" href="#seccion-productos">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Contacto</a>
+                        <a class="nav-link active" href="#seccion-contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -39,7 +39,7 @@
         </div>
     </div>
 
-    <div class="container mt-5">
+    <div class="container mt-5" id="seccion-productos">
         <div class="row">
             
             <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
@@ -108,6 +108,29 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+
+    <div class="container mt-5" id="seccion-contacto">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h3 class="text-center mb-4">Contáctanos</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Enviar mensaje</button>
+                </form>
+            </div>
         </div>
     </div>
 
